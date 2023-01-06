@@ -1,0 +1,241 @@
+
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #15161B;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.logo span {
+    text-transform: uppercase;
+    color: #1a7993;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.area-title h3 {
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.area-title h1 {
+    color: #ffffff;
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: -15px;
+}
+
+.area-title a {
+    display: inline-block;
+    background-color: #1a7993;
+    padding: 15px 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.area-title a:hover {
+    background-color: #134857;
+}
+
+.image-cover {
+    width: 460px;
+    height: 280px;
+}
+
+
+.area-image {
+    background-image: url(../images/casalSentado.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 55px;
+    
+}
+
+/* AREA CARDS */
+
+.area-cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.area-cards h2 {
+    text-transform: uppercase;
+    color: #ffffff;
+    
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    background-color: #2c2f37;
+    width: 160px;
+    height: 180px;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: #ffffff;
+
+}
+
+.card:hover {
+    background-color: #1a7993;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.card img {
+    width: 40px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/* SECTION 3 */
+
+.section3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a7993;
+    height: 375px;
+    margin-bottom: 100px;
+    
+}
+
+.area-title2 h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.area-title2 h3 {
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.area-title2 a {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 15px 50px;
+    color: #2c2f37;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.area-image2 img {
+    width: 250px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 100px;
+        
+}
+
+/* AREA FORM */
+
+.area-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.area-form h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+}
+
+.form input {
+    margin-top: 20px;
+    padding-left: 15px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+input::placeholder {
+    color: #2c2f37;
+    text-transform: uppercase;
+        
+}
+
+input[type="submit"] {
+    background-color: #1a7993;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+    height: 55px;
+}
+
+footer {
+    margin-top: 100px;
+       
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.social h3 {
+    
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+     
+}
+
+.social-icons {
+    align-items: center;
+}
+
+.social-icons img {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 25px;
+}
